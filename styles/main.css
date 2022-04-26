@@ -220,3 +220,28 @@ footer section:nth-child(2) div a {
 footer section:nth-child(2) div a:hover {
 	text-decoration: underline;
 }
+
+/*------- Responsive design -------*/
+
+@media (max-width: 768px) {
+	.container {
+		width: 500px;
+	}
+
+	footer section:nth-child(2) {
+		flex-flow: column wrap;
+		align-items: center;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 400px) {
+	.container {
+		width: 320px;
+	}
+}
