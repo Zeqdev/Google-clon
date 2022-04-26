@@ -97,3 +97,84 @@ body {
 .nav:nth-child(4):hover {
 	background: #93baf9;
 }
+
+/*------- Main -------*/
+
+main section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 650px;
+}
+
+.google-icon {
+	height: 92px;
+	width: auto;
+
+	margin: 0 auto 30px;
+}
+
+.container {
+	display: flex;
+
+	background: transparent;
+	border: 1px solid #303134;
+	border-radius: 24px;
+	box-shadow: var(--dark);
+
+	height: 44px;
+	width: 600px;
+
+	margin: 0 auto 20px;
+}
+
+.container img {
+	height: 20px;
+	width: 20px;
+
+	margin: auto 15px;
+}
+
+.container input {
+	color: var(--white);
+	background: transparent;
+
+	height: 44px;
+	width: 600px;
+
+	outline: none;
+	border: none;
+	word-wrap: break-word;
+
+	margin: auto;
+}
+
+.container:hover {
+	background: #303134;
+}
+
+.btnContainer button {
+	background: #303134;
+
+	height: 36px;
+	width: 150px;
+
+	margin: 11px 4px;
+
+	border: none;
+	border: 1px solid #303134;
+	border-radius: 4px;
+
+	cursor: pointer;
+}
+
+.btnContainer button:hover {
+	border-color: #5f6368;
+}
+
+.btnContainer button a {
+	color: var(--white);
+	text-decoration: none;
+}
