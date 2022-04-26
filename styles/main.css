@@ -1,0 +1,99 @@
+/*------- Variables -------*/
+
+:root {
+	--white: #fff;
+	--dark: #111;
+	--background: #202124;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+body {
+	background: var(--background);
+}
+
+/*------- Navbar -------*/
+
+.nav {
+	display: flex;
+	justify-content: end;
+
+	height: 60px;
+
+	padding: 6px;
+}
+
+.nav a:nth-child(1) {
+	color: var(--white);
+
+	margin: auto 8px;
+
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.nav a:nth-child(1):hover {
+	text-decoration: underline;
+}
+
+.nav a:nth-child(2) {
+	color: var(--white);
+
+	margin: auto 8px;
+
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.nav a:nth-child(2):hover {
+	text-decoration: underline;
+}
+
+.nav a:nth-child(3) {
+	display: flex;
+	align-items: center;
+
+	margin: auto 8px;
+
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+}
+
+.nav a:nth-child(3):hover {
+	background: #303134;
+}
+
+.google-apps-icon {
+	height: 23px;
+	width: 23px;
+
+	margin: auto;
+}
+
+.nav a:nth-child(4) {
+	color: var(--dark);
+	background: #8ab4f8;
+
+	text-align: center;
+	text-decoration: none;
+
+	margin: auto 8px;
+	padding: 9px 25px;
+
+	border-radius: 4px;
+	border: 1px solid transparent;
+}
+
+.nav:nth-child(4):hover {
+	background: #93baf9;
+}
