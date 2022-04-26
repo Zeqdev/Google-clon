@@ -178,3 +178,45 @@ main section {
 	color: var(--white);
 	text-decoration: none;
 }
+
+/*------- Footer -------*/
+
+footer {
+	background: #171717;
+
+	width: 100%;
+
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+.ubicacion {
+	font-size: 15px;
+	color: #9aa0a6;
+
+	padding: 15px 30px;
+	border-bottom: 1px solid #212327;
+}
+
+footer section:nth-child(2) {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer section:nth-child(2) div {
+	padding: 15px 30px;
+}
+
+footer section:nth-child(2) div a {
+	font-size: 15px;
+	color: #9aa0a6;
+
+	margin-right: 20px;
+
+	text-decoration: none;
+}
+
+footer section:nth-child(2) div a:hover {
+	text-decoration: underline;
+}
